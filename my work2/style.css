@@ -1,0 +1,88 @@
+.body{
+margin: 0px;
+padding: 0px;
+}
+.tsec4-faq-section{
+    background-color: #fff;
+    height: 600px;
+    position: relative;
+}
+.tsec4-textsec{
+position: absolute;
+left: 300px;
+}
+.tsec4-txsec-h3{
+    font-size: 15px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 8px;
+    color: #ff6b81;
+    text-transform: uppercase;
+    font-family: inter,sans-serif;
+    text-align: center;
+}
+.tsec4-txsec-h2{
+    font-size: 34px;
+    text-transform:capitalize;
+    font-weight: 800;
+    font-family: inter,sans-serif;
+    color: #081828;
+    text-align: center;
+}
+.tsec4-txsec-p{
+    font-family: inter,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #888;
+    text-align: center;
+}
+.tsec4-buttonsec{
+    position: absolute;
+    left: 85px;
+    top: 270px;
+}
+.tsec4-button{
+    border-radius: 8px;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid #eee;
+    width: 900px;
+    height: 60px;
+    display:block;
+    line-height: 20px;
+    box-shadow: 1px 1px 3px black,-1px -1px 2px rgba(38, 36, 36, 0.389);
+    transition: .2s ease-in-out;
+}
+.tsec4-button-cover{
+    margin: 30px;
+}
+.title{
+    font-size: 15px;
+    position: relative;
+    font-weight: 600;
+    float: left;
+    padding-left: 45px;
+    line-height: 25px;
+    color: #081828; 
+}
+.serial{
+    color: #081828;
+    display: inline-block;
+    line-height: 0px;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    padding-left: 10px;
+}
+.button-icon{
+    position: absolute;
+    right: 50px;
+}
+.tsec4-button:hover{
+    cursor:pointer;
+    background-color: #ff6b81;
+    transition: .2s ease-in-out;
+    color: #eee;
+}
